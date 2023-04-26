@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu_ExitGame : MonoBehaviour
 {
-    void ExitGame()
+    public void ExitGame()
     {
         Application.Quit();
     }
