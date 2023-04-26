@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 281d6759b654a4865a3bc8afbd30c89c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Square One
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 47372108c11f0495fa4a64aa814b0546, type: 3}
+  - {fileID: 12800000, guid: 25043ee0166c54d5d9a7808c07e2bb3f, type: 3}
+  - {fileID: 12800000, guid: e4f95a560d3bb401ab992d653056d107, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
