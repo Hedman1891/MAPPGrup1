@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Ledtr\xE5d.unity"
     guid: bb49865d106ced5418da2d69d798c690
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: 5d90cd5026331154b9d25eb37f15b477
+  - enabled: 1
+    path: Assets/Scenes/Jagad_tidsval.unity
+    guid: a9a7e00370b0ae64e9f8dd034db5c223
   m_configObjects: {}
