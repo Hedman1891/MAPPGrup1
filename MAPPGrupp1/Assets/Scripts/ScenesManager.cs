@@ -17,7 +17,7 @@ public class ScenesManager : MonoBehaviour
     {
         MainMenu,
         Level01,
-    ...
+    //...
     }
 
     public void LoadScene(Scene scene)
