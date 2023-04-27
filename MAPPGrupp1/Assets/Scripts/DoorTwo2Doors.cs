@@ -7,6 +7,6 @@ public class DoorTwo2Doors : MonoBehaviour
 {
     public void DoorTwo()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(2);
     }
 }
