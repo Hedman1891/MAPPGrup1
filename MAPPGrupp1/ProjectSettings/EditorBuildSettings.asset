@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/leftOrRight.unity
     guid: 204f94e4b4ae0414a8dce042246b73a0
   - enabled: 1
-    path: Assets/Scenes/MediaLabbet.unity
-    guid: d1a432a84e9524543ab4480f325451aa
-  - enabled: 1
     path: Assets/Scenes/YesOrNO.unity
     guid: db593a1af0cd04ababc616a0ce8d7d92
   - enabled: 1
@@ -36,21 +33,9 @@ EditorBuildSettings:
     path: "Assets/Scenes/Fa\u0308rdiga/2doors.unity"
     guid: faa8b8cc0314c4ed098660797e77e72d
   - enabled: 1
-    path: Assets/Scenes/Freedom_W.unity
-    guid: b082736bcc8f6904abbdfba2f97e85c7
-  - enabled: 1
-    path: "Assets/Scenes/D\xF6rr 2&3 cutscene.unity"
-    guid: 8f0b4500305414d43b2d9fc195bff50f
-  - enabled: 1
-    path: "Assets/Scenes/Ledtr\xE5d.unity"
-    guid: bb49865d106ced5418da2d69d798c690
-  - enabled: 1
-    path: Assets/Scenes/Level_1.unity
-    guid: 5d90cd5026331154b9d25eb37f15b477
-  - enabled: 1
-    path: Assets/Scenes/Jagad_tidsval.unity
-    guid: a9a7e00370b0ae64e9f8dd034db5c223
-  - enabled: 1
     path: Assets/Scenes/Elevator.unity
     guid: 02ebc1a8dad48497389c98851ed20e54
+  - enabled: 1
+    path: Assets/Scenes/ChasedTIMER.unity
+    guid: e785c89914bff46c2917382c5599aaa7
   m_configObjects: {}

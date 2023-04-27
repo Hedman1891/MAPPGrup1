@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelMinusOnebutton : MonoBehaviour
+public class LevelMinusOneButton : MonoBehaviour
 {
     public void MinusOne()
     {

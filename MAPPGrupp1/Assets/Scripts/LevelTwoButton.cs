@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Level_1_button : MonoBehaviour
+public class LevelTwoButton : MonoBehaviour
 {
-    public void Level_1()
+    public void Two()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(10);
     }
 }
