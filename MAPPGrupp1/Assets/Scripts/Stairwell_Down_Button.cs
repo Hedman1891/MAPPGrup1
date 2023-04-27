@@ -7,6 +7,6 @@ public class Stairwell_Down_Button : MonoBehaviour
 {
     public void Down()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(7);
     }
 }

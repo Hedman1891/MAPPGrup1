@@ -7,7 +7,7 @@ public class DoorOne3Doors : MonoBehaviour
 {
     public void DoorOne()
     {
-        print("error låst!");
+        print("The door is locked!");
     }
 }
 

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Stairwell_Up_Button : MonoBehaviour
+public class GiveUp : MonoBehaviour
 {
-    public void Up()
+    public void GameOver() 
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(10);
     }
 }

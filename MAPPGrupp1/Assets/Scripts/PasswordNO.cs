@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Stairwell_Up_Button : MonoBehaviour
+public class PasswordNO : MonoBehaviour
 {
-    public void Up()
-    {
-        SceneManager.LoadScene(7);
+    public void No() {
+        SceneManager.LoadScene(2);
     }
 }

@@ -7,6 +7,6 @@ public class StartSceneChoiceElevator : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene(15);
+        SceneManager.LoadScene(8);
     }
 }

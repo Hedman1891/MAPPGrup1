@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LeftButton : MonoBehaviour
+
+public class GoLeft : MonoBehaviour
 {
-    public void LeftChoice()
-    {
+    public void Left() {
         SceneManager.LoadScene(2);
     }
 }
-
