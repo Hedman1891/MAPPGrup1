@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/Fa\u0308rdiga/Elevator.unity"
     guid: 02ebc1a8dad48497389c98851ed20e54
   - enabled: 1
-    path: Assets/Scenes/ChasedTIMER.unity
+    path: "Assets/Scenes/Fa\u0308rdiga/ChasedTIMER.unity"
     guid: e785c89914bff46c2917382c5599aaa7
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/GameOver.unity"
