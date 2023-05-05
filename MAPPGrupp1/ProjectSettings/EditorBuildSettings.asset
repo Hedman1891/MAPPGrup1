@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Obehandlat/Video utan UI/DoYouWannaPlay.unity
     guid: c96e0b8cb35584977b0a29d011bc972b
   - enabled: 1
-    path: "Assets/Scenes/Fa\u0308rdiga/WakeUp.unity"
+    path: "Assets/Scenes/F\xE4rdiga/WakeUp.unity"
     guid: 282506dca181c7f4a81802cf078d8f14
   - enabled: 1
     path: Assets/Scenes/Obehandlat/Video utan UI/MediaLab_Loop.unity
@@ -27,8 +27,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Obehandlat/Video utan UI/Stairwell_Loop.unity
     guid: 945661523504f4584ac29e2f52406d9e
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/StairwellUp_TwoDoors (frihet eller ta hiss) Script
-      ligger fel atm.unity
+    path: Assets/Scenes/Obehandlat/Video utan UI/StairwellUp_TwoDoors (frihet eller
+      ta hiss) Script ligger fel atm.unity
     guid: faa8b8cc0314c4ed098660797e77e72d
   - enabled: 1
     path: Assets/Scenes/Obehandlat/Video utan UI/Elevator_Loop.unity
@@ -51,4 +51,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Obehandlat/Video utan UI/Floor 2_Cut Scene.unity
+    guid: 7f56b59dbadd44c51abd71515f1eccce
   m_configObjects: {}
