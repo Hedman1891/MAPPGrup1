@@ -6,14 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/MainMenu.unity
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/MainMenu.unity"
     guid: 0ffd40e3babb0472ca13c4740d14350e
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/Video utan UI/DoYouWannaPlay.unity
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/DoYouWannaPlay.unity"
     guid: c96e0b8cb35584977b0a29d011bc972b
   - enabled: 1
-    path: "Assets/Scenes/Fa\u0308rdiga/WakeUp.unity"
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/WakeUp_CutScene.unity"
     guid: 282506dca181c7f4a81802cf078d8f14
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/WakeUp_Loop.unity"
+    guid: bb09afb619c5f4ffeab8e2327d85c1b9
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Elevator_CutScene.unity"
+    guid: ad66ffd49c6754a198cd5f6dff75a629
+  - enabled: 1
+    path: Assets/Scenes/Obehandlat/Video utan UI/Elevator_Loop.unity
+    guid: 02ebc1a8dad48497389c98851ed20e54
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Stairwell_CutScene.unity"
+    guid: 9f39e58c968cb46f69b759a00a67c2a9
   - enabled: 1
     path: Assets/Scenes/Obehandlat/Video utan UI/MediaLab_Loop.unity
     guid: 87c934e1968e146b8aadab965a63c442
@@ -31,9 +43,6 @@ EditorBuildSettings:
       ligger fel atm.unity
     guid: faa8b8cc0314c4ed098660797e77e72d
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/Video utan UI/Elevator_Loop.unity
-    guid: 02ebc1a8dad48497389c98851ed20e54
-  - enabled: 1
     path: Assets/Scenes/Obehandlat/Floor2_Loop (Timer).unity
     guid: e785c89914bff46c2917382c5599aaa7
   - enabled: 1
@@ -48,7 +57,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Obehandlat/Video utan UI/Garage_loop.unity
     guid: 287ace79a1a43dc46adf9dd5d59ca279
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}
