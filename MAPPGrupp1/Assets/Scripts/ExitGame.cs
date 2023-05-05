@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Stairwell_Up_Button : MonoBehaviour
+public class ExitGame : MonoBehaviour
 {
-    public void Up()
+    public void Exit()
     {
-        SceneManager.LoadScene(7);
+        Application.Quit();
     }
 }
