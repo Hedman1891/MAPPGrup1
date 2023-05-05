@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Obehandlat/Video utan UI/Floor2_Loop (Timer).unity
     guid: e785c89914bff46c2917382c5599aaa7
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/Video utan UI/StairwellUp_TwoDoors.unity
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/StairwellUp_TwoDoors.unity"
     guid: faa8b8cc0314c4ed098660797e77e72d
   - enabled: 1
     path: Assets/Scenes/Obehandlat/GameOver.unity
