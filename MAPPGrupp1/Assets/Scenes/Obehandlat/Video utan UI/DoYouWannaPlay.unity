@@ -458,15 +458,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 641276206}
-        m_TargetAssemblyTypeName: DoYouWannaPlay, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
+        m_TargetAssemblyTypeName: NavigateScenes, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: WakeUp
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &641276204
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 641276200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d7e2b58e6f4742188666ac1d770b27a, type: 3}
+  m_Script: {fileID: 11500000, guid: ebc115932f0a14778a50ad4b58dc85c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &756228276
@@ -849,15 +849,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1764786524}
-        m_TargetAssemblyTypeName: DoYouWannaPlay, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
+        m_TargetAssemblyTypeName: NavigateScenes, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: WakeUp
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1764786522
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1764786519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d7e2b58e6f4742188666ac1d770b27a, type: 3}
+  m_Script: {fileID: 11500000, guid: ebc115932f0a14778a50ad4b58dc85c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1780651031
