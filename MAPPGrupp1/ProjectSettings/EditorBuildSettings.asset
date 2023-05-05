@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Stairwell_CutScene.unity"
     guid: 9f39e58c968cb46f69b759a00a67c2a9
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/Video utan UI/Stairwell_Loop.unity
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Stairwell_Loop.unity"
     guid: 945661523504f4584ac29e2f52406d9e
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/StairwellGoUp_CutScene.unity"
@@ -45,8 +45,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Obehandlat/YesOrNO.unity
     guid: db593a1af0cd04ababc616a0ce8d7d92
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/StairwellUp_TwoDoors (frihet eller ta hiss) Script
-      ligger fel atm.unity
+    path: Assets/Scenes/Obehandlat/Video utan UI/StairwellUp_TwoDoors (frihet eller
+      ta hiss) Script ligger fel atm.unity
     guid: faa8b8cc0314c4ed098660797e77e72d
   - enabled: 1
     path: Assets/Scenes/Obehandlat/Floor2_Loop (Timer).unity
