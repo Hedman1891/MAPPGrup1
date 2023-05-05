@@ -215,9 +215,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 689013168}
   - {fileID: 1967910867}
   - {fileID: 1980540878}
-  - {fileID: 689013168}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 689013170}
   - component: {fileID: 689013169}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: Loop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -325,12 +325,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 267224236}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &689013169
 MonoBehaviour:
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 1967910871}
   - component: {fileID: 1967910870}
   - component: {fileID: 1967910869}
-  - component: {fileID: 1967910868}
+  - component: {fileID: 1967910872}
   m_Layer: 5
   m_Name: door 1
   m_TagString: Untagged
@@ -712,25 +712,13 @@ RectTransform:
   m_Children:
   - {fileID: 1144621983}
   m_Father: {fileID: 267224236}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -239, y: 38}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1967910868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967910866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d6f12bff64639946bd800501ce2f826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1967910869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,16 +763,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1967910868}
-        m_TargetAssemblyTypeName: DoorOne2Doors, Assembly-CSharp
-        m_MethodName: DoorOne
-        m_Mode: 1
+      - m_Target: {fileID: 1967910872}
+        m_TargetAssemblyTypeName: NavigateScenes, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MediaLab_Loop
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1967910870
@@ -825,6 +813,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967910866}
   m_CullTransparentMesh: 1
+--- !u!114 &1967910872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967910866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc115932f0a14778a50ad4b58dc85c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1980540877
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 1980540882}
   - component: {fileID: 1980540881}
   - component: {fileID: 1980540880}
-  - component: {fileID: 1980540879}
+  - component: {fileID: 1980540883}
   m_Layer: 5
   m_Name: door 2
   m_TagString: Untagged
@@ -859,25 +859,13 @@ RectTransform:
   m_Children:
   - {fileID: 1074166411}
   m_Father: {fileID: 267224236}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 22, y: 33.646606}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1980540879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980540877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b105850e2660cc941b3a3315bd3a38c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1980540880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,16 +910,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1980540879}
-        m_TargetAssemblyTypeName: DoorTwo2Doors, Assembly-CSharp
-        m_MethodName: DoorTwo
-        m_Mode: 1
+      - m_Target: {fileID: 1980540883}
+        m_TargetAssemblyTypeName: NavigateScenes, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: DoorToFakeFreedom_CutScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1980540881
@@ -972,3 +960,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980540877}
   m_CullTransparentMesh: 1
+--- !u!114 &1980540883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980540877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc115932f0a14778a50ad4b58dc85c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
