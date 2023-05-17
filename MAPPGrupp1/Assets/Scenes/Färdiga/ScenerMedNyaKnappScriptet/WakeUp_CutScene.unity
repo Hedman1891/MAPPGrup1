@@ -1036,6 +1036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1128370815}
   - component: {fileID: 1128370814}
+  - component: {fileID: 1128370816}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -1093,6 +1094,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1128370816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128370813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8f93627740a6b40aa2efc033e26848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 1128370814}
+  nextSceneName: WakeUp_Loop
 --- !u!1 &1944135175
 GameObject:
   m_ObjectHideFlags: 0
