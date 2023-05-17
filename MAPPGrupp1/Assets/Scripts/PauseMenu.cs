@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.Video;
 
 
 
@@ -11,6 +11,7 @@ public class PauseMenu : MonoBehaviour
     
     public static bool GameIsPaused = false;
     public GameObject PauseMenuWindow;
+    public VideoPlayer videoPlayer;
 
     //Fält i unity för att länka och sedan dölja/visa valknappar vid pause
     public Button Button1;
@@ -21,6 +22,9 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         PauseMenuWindow.SetActive(false);
+
+        //GameObject.Find(videoPlayer);
+        //VideoPlayer videoPlayer = GetComponent<VideoPlayer>();
     }
     void Update()
     {
@@ -38,22 +42,26 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        //saknas metod som återupptar videon
+        videoPlayer.Play();
         PauseMenuWindow.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
         Button1.gameObject.SetActive(true);
         Button2.gameObject.SetActive(true);
+        //Button3.gameObject.SetActive(true);
+        //Button4.gameObject.SetActive(true);
     }
 
     public void Pause()
     {
-        //saknas metod som pausar videon
+        videoPlayer.Pause();
         PauseMenuWindow.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
         Button1.gameObject.SetActive(false);
         Button2.gameObject.SetActive(false);
+        //Button3.gameObject.SetActive(false);
+        //Button4.gameObject.SetActive(false);
     }
 
     public void LoadMenu()

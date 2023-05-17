@@ -20,4 +20,6 @@ public class CutsceneScript : MonoBehaviour
     {
         SceneManager.LoadScene(nextSceneName);
     }
+
 }
+
