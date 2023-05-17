@@ -18,22 +18,22 @@ EditorBuildSettings:
     path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/WakeUp_Loop.unity"
     guid: bb09afb619c5f4ffeab8e2327d85c1b9
   - enabled: 1
-    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Elevator_CutScene.unity"
+    path: "Assets/Scenes/F\xE4rdiga/CutScenes/Elevator_CutScene.unity"
     guid: ad66ffd49c6754a198cd5f6dff75a629
   - enabled: 1
     path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Elevator_Loop.unity"
     guid: 02ebc1a8dad48497389c98851ed20e54
   - enabled: 1
-    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Stairwell_CutScene.unity"
+    path: "Assets/Scenes/F\xE4rdiga/CutScenes/Stairwell_CutScene.unity"
     guid: 9f39e58c968cb46f69b759a00a67c2a9
   - enabled: 1
     path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Stairwell_Loop.unity"
     guid: 945661523504f4584ac29e2f52406d9e
   - enabled: 1
-    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/StairwellGoUp_CutScene.unity"
+    path: "Assets/Scenes/F\xE4rdiga/CutScenes/StairwellGoUp_CutScene.unity"
     guid: 866fafcc69d584466a0b94403db49f37
   - enabled: 1
-    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/StairwellGoDown_CutScene.unity"
+    path: "Assets/Scenes/F\xE4rdiga/CutScenes/StairwellGoDown_CutScene.unity"
     guid: 84fb9086f188347d59c8fb67abc762cd
   - enabled: 1
     path: Assets/Scenes/Obehandlat/Video utan UI/MediaLab_Loop.unity
