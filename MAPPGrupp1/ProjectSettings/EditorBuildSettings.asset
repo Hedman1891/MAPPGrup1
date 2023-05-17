@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/DoYouWannaPlay.unity"
     guid: c96e0b8cb35584977b0a29d011bc972b
   - enabled: 1
-    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/WakeUp_CutScene.unity"
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/WakeUp_CutScene.unity"
     guid: 282506dca181c7f4a81802cf078d8f14
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/WakeUp_Loop.unity"
