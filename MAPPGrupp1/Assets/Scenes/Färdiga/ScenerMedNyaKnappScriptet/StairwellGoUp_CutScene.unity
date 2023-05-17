@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 524863858}
-  nextSceneName: StairwellUp_TwoDoors (frihet eller ta hiss) Script ligger fel atm
+  nextSceneName: StairwellUp_TwoDoors
 --- !u!1 &1624631674
 GameObject:
   m_ObjectHideFlags: 0

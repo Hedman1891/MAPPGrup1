@@ -1224,6 +1224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuWindow: {fileID: 2115438919}
+  videoPlayer: {fileID: 0}
   Button1: {fileID: 0}
   Button2: {fileID: 0}
   Button3: {fileID: 0}
