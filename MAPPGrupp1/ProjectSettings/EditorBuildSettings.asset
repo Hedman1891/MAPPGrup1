@@ -82,12 +82,21 @@ EditorBuildSettings:
       + garege ho\u0308ger)/Password_Input.unity"
     guid: 0d2673422aa3e824b94ae6bd544604c0
   - enabled: 1
-    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/KollaJaNej.unity"
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/KollaJaNej.unity"
     guid: 83ef7c5de4d6e47efba671f39c9077b0
   - enabled: 1
-    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/KollaInte.unity"
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/KollaInte.unity"
     guid: fc33d01855d0549aca818fa91110004a
   - enabled: 1
-    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/KollaP\xE5.unity"
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/KollaPa\u030A.unity"
     guid: 1faaf6bfac1ea4763baff1f87faad1cc
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/CutScenes/ElevatorFloor1_CutScene.unity"
+    guid: faa323ec0522c4c2c87430144bd2bb00
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/CutScenes/ElevatorFloor-1_CutScene.unity"
+    guid: 59d73687d23aa4fa09e0b9f263d40043
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/CutScenes/ElevatorFloor2_CutScene.unity"
+    guid: 68ca6ae080349480b8e12688f13a2aca
   m_configObjects: {}
