@@ -23,11 +23,11 @@ public class CheckPassword : MonoBehaviour
 
     {
         case "ESCAPE":
-            SceneManager.LoadScene("END_1");
+            SceneManager.LoadScene("Ending1Win");
             break;
         
         default:
-        inputTextField.text = "";
+        inputTextField.text = "Wrong Password";
         break;
     }
 
