@@ -60,7 +60,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Obehandlat/Win.unity
     guid: 47a075e38640246b080717c9a703bda8
   - enabled: 1
-    path: Assets/Scenes/Obehandlat/Video utan UI/Garage_loop.unity
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Garage_loop.unity"
     guid: 287ace79a1a43dc46adf9dd5d59ca279
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/CutScenes/Floor 2_Cut Scene.unity"
@@ -75,7 +75,7 @@ EditorBuildSettings:
     guid: 4b15a74b482d3b141bad617f43cae88b
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
-      + garege ho\u0308ger)/Ending1Win.unity"
+      + garege ho\u0308ger)/EndingOneWin.unity"
     guid: caa9fb323a0fa4289ae3d53fc178337d
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
@@ -85,10 +85,10 @@ EditorBuildSettings:
     path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/KollaJaNej.unity"
     guid: 83ef7c5de4d6e47efba671f39c9077b0
   - enabled: 1
-    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/KollaInte.unity"
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/LookAt.unity"
     guid: fc33d01855d0549aca818fa91110004a
   - enabled: 1
-    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/KollaPa\u030A.unity"
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Letra\u030AdTrappHus)/DontLook.unity"
     guid: 1faaf6bfac1ea4763baff1f87faad1cc
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/CutScenes/ElevatorFloor1_CutScene.unity"
@@ -99,4 +99,11 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Fa\u0308rdiga/CutScenes/ElevatorFloor2_CutScene.unity"
     guid: 68ca6ae080349480b8e12688f13a2aca
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
+      + garege ho\u0308ger)/Garage_GoRight_CutScene.unity"
+    guid: ed40bd79bfae740b08349150af6c0141
+  - enabled: 1
+    path: "Assets/Scenes/Fa\u0308rdiga/CutScenes/Garage_GoLeft_CutScene.unity"
+    guid: b01922579c7744669a6fff9cdd825225
   m_configObjects: {}
