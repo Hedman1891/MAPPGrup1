@@ -19,13 +19,17 @@ public class PauseMenu : MonoBehaviour
     public Button Button3;
     public Button Button4;
 
+    public List<Button> buttonList = new List<Button>();
+
     void Start()
     {
         PauseMenuWindow.SetActive(false);
-
-        //GameObject.Find(videoPlayer);
-        //VideoPlayer videoPlayer = GetComponent<VideoPlayer>();
+        buttonList.Add(Button1);
+        buttonList.Add(Button2);
+        buttonList.Add(Button3);
+        buttonList.Add(Button4);
     }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) /* eller framtida pause ikon klickas*/)
@@ -46,10 +50,14 @@ public class PauseMenu : MonoBehaviour
         PauseMenuWindow.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        Button1.gameObject.SetActive(true);
-        Button2.gameObject.SetActive(true);
-        //Button3.gameObject.SetActive(true);
-        //Button4.gameObject.SetActive(true);
+
+        for (int i = 0; i < buttonList.Count; i++)
+        {
+            if (buttonList[i] != null)
+            {
+                buttonList[i].gameObject.SetActive(true);
+            }
+        }
     }
 
     public void Pause()
@@ -58,10 +66,15 @@ public class PauseMenu : MonoBehaviour
         PauseMenuWindow.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        Button1.gameObject.SetActive(false);
-        Button2.gameObject.SetActive(false);
-        //Button3.gameObject.SetActive(false);
-        //Button4.gameObject.SetActive(false);
+
+        for (int i = 0; i < buttonList.Count; i++)
+        {
+            if (buttonList[i] != null)
+            {
+                buttonList[i].gameObject.SetActive(false);
+            }
+        }
+
     }
 
     public void LoadMenu()
