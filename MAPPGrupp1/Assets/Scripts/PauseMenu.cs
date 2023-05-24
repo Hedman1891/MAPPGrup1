@@ -14,6 +14,7 @@ public class PauseMenu : MonoBehaviour
     public VideoPlayer videoPlayer;
 
     //Fält i unity för att länka och sedan dölja/visa valknappar vid pause
+    public Button PauseKnapp;
     public Button Button1;
     public Button Button2;
     public Button Button3;
@@ -21,9 +22,12 @@ public class PauseMenu : MonoBehaviour
 
     public List<Button> buttonList = new List<Button>();
 
+    
+
     void Start()
     {
         PauseMenuWindow.SetActive(false);
+        buttonList.Add(PauseKnapp);
         buttonList.Add(Button1);
         buttonList.Add(Button2);
         buttonList.Add(Button3);
@@ -32,7 +36,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) /* eller framtida pause ikon klickas*/)
+        if (Input.GetKeyDown(KeyCode.Escape) /* eller ev. om pause ikon klickas...*/)
         {
             if (GameIsPaused)
             {
