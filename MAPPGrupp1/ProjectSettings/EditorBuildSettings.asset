@@ -106,4 +106,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Obehandlat/Video utan UI/Floor2_Loop (Timer).unity
     guid: e785c89914bff46c2917382c5599aaa7
+  - enabled: 1
+    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
+      + garege h\xF6ger)/Fireworks!!.unity"
+    guid: 4a3da9beea7681f40b0acade6587a8c0
+  - enabled: 1
+    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
+      + garege h\xF6ger)/GiveUpPassword.unity"
+    guid: 7d2624d98e9fc4246965028194c6f4df
+  - enabled: 1
+    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
+      + garege h\xF6ger)/GameOverRestart.unity"
+    guid: 7802f65521667ef4b9c78bd323109e9f
   m_configObjects: {}
