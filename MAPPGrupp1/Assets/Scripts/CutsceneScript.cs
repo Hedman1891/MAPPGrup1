@@ -22,8 +22,6 @@ public class CutsceneScript : MonoBehaviour
     {
         Wait();
         fade.FadeIn();
-       
-        //yield return new WaitForSeconds(1);
         SceneManager.LoadScene(nextSceneName);
     }
     public IEnumerator Wait() {

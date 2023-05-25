@@ -7,7 +7,7 @@ public class FadeInOut : MonoBehaviour
     public CanvasGroup canvasGroup;
     public bool fadeIn = false;
     public bool fadeOut = false;
-    public float TimeToFade = 5f;
+    public float TimeToFade = 1f;
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -16,7 +16,7 @@ public class FadeInOut : MonoBehaviour
             if (canvasGroup.alpha < 1)
             {
 
-                canvasGroup.alpha += TimeToFade * Time.deltaTime;
+                canvasGroup.alpha += TimeToFade * Time.fixedDeltaTime;
                 if (canvasGroup.alpha >= 1)
                 {
                     fadeIn = false;
