@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 776776120}
   - component: {fileID: 776776119}
   - component: {fileID: 776776118}
-  - component: {fileID: 776776117}
+  - component: {fileID: 776776121}
   m_Layer: 5
   m_Name: door 1
   m_TagString: Untagged
@@ -585,18 +585,6 @@ RectTransform:
   m_AnchoredPosition: {x: -726, y: 0}
   m_SizeDelta: {x: 400, y: 146}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &776776117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776776115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2509de29a64eb9d469aaf22d718e8347, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &776776118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,16 +629,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 776776117}
-        m_TargetAssemblyTypeName: DoorOne3Doors, Assembly-CSharp
-        m_MethodName: DoorOne
-        m_Mode: 1
+      - m_Target: {fileID: 776776121}
+        m_TargetAssemblyTypeName: NavigateScenes, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MediaLab_DoorThree_CutScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &776776119
@@ -691,6 +679,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776776115}
   m_CullTransparentMesh: 1
+--- !u!114 &776776121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776776115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc115932f0a14778a50ad4b58dc85c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &893755465
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 893755470}
   - component: {fileID: 893755469}
   - component: {fileID: 893755468}
-  - component: {fileID: 893755467}
+  - component: {fileID: 893755471}
   m_Layer: 5
   m_Name: door 3
   m_TagString: Untagged
@@ -732,18 +732,6 @@ RectTransform:
   m_AnchoredPosition: {x: 539, y: 0}
   m_SizeDelta: {x: 400, y: 146}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &893755467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893755465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a3bdad2f9d979d4eb90706853e15c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &893755468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,16 +776,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 893755467}
-        m_TargetAssemblyTypeName: DoorTwo3Doors, Assembly-CSharp
-        m_MethodName: DoorTwo
-        m_Mode: 1
+      - m_Target: {fileID: 893755471}
+        m_TargetAssemblyTypeName: NavigateScenes, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MediaLab_DoorThree_CutScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &893755469
@@ -838,6 +826,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893755465}
   m_CullTransparentMesh: 1
+--- !u!114 &893755471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893755465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc115932f0a14778a50ad4b58dc85c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907215056
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +930,7 @@ GameObject:
   - component: {fileID: 1394440305}
   - component: {fileID: 1394440304}
   - component: {fileID: 1394440303}
-  - component: {fileID: 1394440302}
+  - component: {fileID: 1394440306}
   m_Layer: 5
   m_Name: door 2
   m_TagString: Untagged
@@ -959,18 +959,6 @@ RectTransform:
   m_AnchoredPosition: {x: 161, y: 0}
   m_SizeDelta: {x: 400, y: 146}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1394440302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394440300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a3bdad2f9d979d4eb90706853e15c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1394440303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1015,16 +1003,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1394440302}
-        m_TargetAssemblyTypeName: DoorTwo3Doors, Assembly-CSharp
-        m_MethodName: DoorTwo
-        m_Mode: 1
+      - m_Target: {fileID: 1394440306}
+        m_TargetAssemblyTypeName: NavigateScenes, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MediaLab_DoorTwo_CutScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1394440304
@@ -1065,6 +1053,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394440300}
   m_CullTransparentMesh: 1
+--- !u!114 &1394440306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394440300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc115932f0a14778a50ad4b58dc85c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1563107547
 GameObject:
   m_ObjectHideFlags: 0
