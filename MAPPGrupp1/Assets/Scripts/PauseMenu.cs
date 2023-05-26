@@ -84,6 +84,7 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         Debug.Log("Loading Menu...");
+        
     }
 
     public void LoadSettings()
