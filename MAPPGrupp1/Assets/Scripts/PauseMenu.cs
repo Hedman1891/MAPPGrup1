@@ -87,8 +87,4 @@ public class PauseMenu : MonoBehaviour
         
     }
 
-    public void LoadSettings()
-    {
-        Debug.Log("Loading Settings...");
-    }
 }
