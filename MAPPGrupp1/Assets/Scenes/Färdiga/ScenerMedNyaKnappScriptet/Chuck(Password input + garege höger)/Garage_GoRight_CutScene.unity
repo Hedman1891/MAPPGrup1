@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 529378158}
   - component: {fileID: 529378157}
   - component: {fileID: 529378159}
+  - component: {fileID: 529378160}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -273,6 +274,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 529378157}
   nextSceneName: GarageRight_loop
+--- !u!114 &529378160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529378156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89148032015a2644a23c8d988d058c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 0}
+  fadeIn: 1
+  fadeOut: 0
+  TimeToFade: 1
 --- !u!1 &1144217440
 GameObject:
   m_ObjectHideFlags: 0
