@@ -10455,7 +10455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 104829970813648393, guid: d3015b7eea383f64d8b81f965cc466e7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 107540711077034587, guid: d3015b7eea383f64d8b81f965cc466e7, type: 3}
       propertyPath: m_RootOrder
@@ -10673,7 +10673,7 @@ SortingGroup:
   m_GameObject: {fileID: 1425956422}
   m_Enabled: 0
   m_SortingLayerID: 2088757603
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!212 &1425956425
 SpriteRenderer:
@@ -10908,7 +10908,7 @@ SortingGroup:
   m_GameObject: {fileID: 1514604413}
   m_Enabled: 0
   m_SortingLayerID: 2088757603
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: -1
 --- !u!199 &1514604416
 ParticleSystemRenderer:
