@@ -23,7 +23,7 @@ public class CheckPassword : MonoBehaviour
 
     {
         case "ESCAPE":
-            SceneManager.LoadScene("EndingOneWin");
+            SceneManager.LoadScene("Garage_Correct_Ending");
             break;
         
         default:
