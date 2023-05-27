@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 539656929}
-  nextSceneName: Win
+  nextSceneName: YouWon
 --- !u!1 &568219943
 GameObject:
   m_ObjectHideFlags: 0

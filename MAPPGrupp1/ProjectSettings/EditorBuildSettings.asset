@@ -125,4 +125,8 @@ EditorBuildSettings:
     path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
       + garege h\xF6ger)/GameOver.unity"
     guid: 26e25341ef76747f8be4f8aae2af2373
+  - enabled: 1
+    path: "Assets/Scenes/F\xE4rdiga/ScenerMedNyaKnappScriptet/Chuck(Password input
+      + garege h\xF6ger)/YouWon.unity"
+    guid: aea7f95c9667ede48a0d1896d7150642
   m_configObjects: {}
