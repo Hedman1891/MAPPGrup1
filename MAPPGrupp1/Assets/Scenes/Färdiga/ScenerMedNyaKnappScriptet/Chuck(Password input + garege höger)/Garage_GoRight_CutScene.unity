@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 529378157}
-  nextSceneName: GarageRight_loop
+  nextSceneName: GarageRight_Loop
 --- !u!1 &1144217440
 GameObject:
   m_ObjectHideFlags: 0
