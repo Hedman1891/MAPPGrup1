@@ -5500,6 +5500,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.019607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.70980394
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.07058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.02745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.5372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.5294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641282235419683177, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.4392157
+      objectReference: {fileID: 0}
     - target: {fileID: 7641282235419683191, guid: 17ac20bf598ae4429b3e36a20ebedfa4, type: 3}
       propertyPath: m_Name
       value: LookButton
@@ -10520,6 +10556,42 @@ PrefabInstance:
     - target: {fileID: 5229820263319017435, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
       propertyPath: m_Name
       value: DontLookButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.019607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.70980394
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.07058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.02745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.5372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.5294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229820263319017437, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.4392157
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c30ee0e9540484763b16f6e09a8fc9cf, type: 3}
