@@ -67,6 +67,7 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         videoPlayer.Pause();
+        AudioPlayer.instance.GetComponent<AudioSource>().Pause();
         PauseMenuWindow.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
