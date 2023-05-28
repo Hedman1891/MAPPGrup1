@@ -4,7 +4,17 @@ using UnityEngine;
 
 public class AudioPlayer : MonoBehaviour
 {
-void Awake() {
-    DontDestroyOnLoad(transform.gameObject);
+    public static AudioPlayer instance;
+void Awake() 
+{
+    if (instance != null){
+        Destroy(gameObject);
+    }
+    else
+    {
+       instance = this;
+       DontDestroyOnLoad(this.gameObject); 
+    }
+
 }
 }
