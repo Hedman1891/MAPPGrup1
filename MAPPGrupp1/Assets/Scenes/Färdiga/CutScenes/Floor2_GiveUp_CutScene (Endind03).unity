@@ -547,7 +547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 641068719}
-  nextSceneName: End2
+  nextSceneName: End3
 --- !u!114 &641068722
 MonoBehaviour:
   m_ObjectHideFlags: 0
