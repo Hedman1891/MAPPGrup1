@@ -20,7 +20,7 @@ public class CheckPassword : MonoBehaviour
                 break;
 
             default:
-                inputTextField.text = "Wrong Password";
+                inputTextField.text = "";
                 break;
         }
     }

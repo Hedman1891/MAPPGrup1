@@ -5391,7 +5391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 1021771262}
-  disableDelay: 3.5
+  disableDelay: 2.5
 --- !u!212 &1021771260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10628,7 +10628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 2038374594}
-  disableDelay: 1.5
+  disableDelay: 1
 --- !u!212 &2038374592
 SpriteRenderer:
   m_ObjectHideFlags: 0
