@@ -5,9 +5,10 @@ using UnityEngine;
 public class ButtonSound : MonoBehaviour
 {
     public AudioSource audioSource;
-  public void playButton()
+    public AudioClip audioClip;
+  public void PlayButtonSound()
     {
 
-        audioSource.Play();
+        audioSource.PlayOneShot(audioClip);
     }
 }
