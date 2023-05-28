@@ -20,7 +20,7 @@ public class CutsceneScript : MonoBehaviour
     // Update is called once per frame
     void OnVideoEnd(VideoPlayer Player)
     {
-        Wait();
+        //Wait();
         fade.FadeIn();
         SceneManager.LoadScene(nextSceneName);
     }
