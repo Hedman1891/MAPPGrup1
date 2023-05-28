@@ -10,7 +10,6 @@ public class CheckPassword : MonoBehaviour
     // Start is called before the first frame update
 
     public InputField inputTextField;
-    public Light[] pointLights;
 
     public void CheckPasswordAndLoadScene()
     {
@@ -22,19 +21,9 @@ public class CheckPassword : MonoBehaviour
 
             default:
                 inputTextField.text = "Wrong Password";
-                DisablePointLights();
                 break;
         }
     }
 
-    private void DisablePointLights()
-    {
-        foreach (Light pointLight in pointLights)
-        {
-            if (pointLight != null)
-            {
-                pointLight.enabled = false;
-            }
-        }
-    }
+
 }
