@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PopupLocke : MonoBehaviour
+public class ClickDestroy : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public void DestroyThisObject()
+{
+   Destroy(gameObject);
+}
 
     // Update is called once per frame
     void Update()
