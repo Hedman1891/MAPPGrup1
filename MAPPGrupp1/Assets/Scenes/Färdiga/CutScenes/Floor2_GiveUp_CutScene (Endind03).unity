@@ -476,6 +476,7 @@ GameObject:
   - component: {fileID: 641068720}
   - component: {fileID: 641068719}
   - component: {fileID: 641068721}
+  - component: {fileID: 641068722}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -546,7 +547,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 641068719}
-  nextSceneName: End3
+  nextSceneName: End2
+--- !u!114 &641068722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641068718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89148032015a2644a23c8d988d058c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 0}
+  fadeIn: 0
+  fadeOut: 0
+  TimeToFade: 1
 --- !u!1 &757445173
 GameObject:
   m_ObjectHideFlags: 0
