@@ -4,20 +4,7 @@ using UnityEngine;
 
 public class AudioPlayer : MonoBehaviour
 {
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip musicClip;
-
-    
-    void Start()
-    {
-       audioSource.clip = musicClip;
-       audioSource.loop = true;
-       audioSource.Play(); 
-    }
-
-    
-    void Update()
-    {
-        
-    }
+void Awake() {
+    DontDestroyOnLoad(transform.gameObject);
+}
 }
