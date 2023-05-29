@@ -12,7 +12,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject PauseMenuWindow;
     public VideoPlayer videoPlayer;
-
+    
     //Fält i unity för att länka och sedan dölja/visa valknappar vid pause
     public Button PauseKnapp;
     public Button Button1;
@@ -51,7 +51,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         videoPlayer.Play();
-        //AudioPlayer.instance.GetComponent<AudioSource>().Play();
+        AudioPlayer.instance.GetComponent<AudioSource>().Play();
         PauseMenuWindow.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
@@ -68,7 +68,7 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         videoPlayer.Pause();
-        //AudioPlayer.instance.GetComponent<AudioSource>().Pause();
+        AudioPlayer.instance.GetComponent<AudioSource>().Pause();
         PauseMenuWindow.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;

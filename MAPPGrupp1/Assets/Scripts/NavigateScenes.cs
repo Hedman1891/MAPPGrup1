@@ -9,13 +9,16 @@ public class NavigateScenes : MonoBehaviour
     public void SwitchScene(string sceneName){
         SceneManager.LoadScene(sceneName);
 
-        if (sceneName == "MainMenu" || sceneName == "DoYouWannaPlay") {
-            AudioPlayer.instance.GetComponent<AudioSource>().Pause();
+        if (AudioPlayer.instance != null && sceneName == "MainMenu" || sceneName == "DoYouWannaPlay") {
 
+            AudioPlayer.instance.GetComponent<AudioSource>().Stop();
         }
-        else {
-             AudioPlayer.instance.GetComponent<AudioSource>().Play();
 
+    else
+    {
+        AudioPlayer.instance.GetComponent<AudioSource>().Play();
         }
+
     }
-}
+    }
+

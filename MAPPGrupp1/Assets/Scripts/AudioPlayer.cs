@@ -14,6 +14,7 @@ void Awake()
     {
        instance = this;
        DontDestroyOnLoad(this.gameObject); 
+       
     }
 
 }
